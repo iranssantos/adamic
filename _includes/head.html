@@ -14,7 +14,7 @@
         {{- page.title -}}
     {%- endif -%}
     {%- if site.cs50.title -%}
-        {%- unless site.github and site.cs50.title == site.github.repository_name -%}
+        {%- unless site.github and site.cs50.title == https://github.com/iranssantos/adamic -%}
             {%- if page.title %} - {% endif -%}
             {{- site.cs50.title -}}
         {%- endunless -%}
